@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../glue" value="1394631066000" />
+        <entry key="$PROJECT_DIR$/../kouign-amann-pi" value="1389631640000" />
+        <entry key="$PROJECT_DIR$/../pi-adafruit-lcd-keypad" value="1392392588000" />
+        <entry key="$PROJECT_DIR$/../vert.x" value="1390834220000" />
+      </map>
+    </option>
+  </component>
+  <component name="IdProvider" IDEtalkID="C320BB219904F5F1735E4CD4798E7B3F" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
