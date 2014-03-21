@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/foundation-glue.iml" filepath="$PROJECT_DIR$/foundation-glue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rtnp-glue.iml" filepath="$PROJECT_DIR$/rtnp-glue.iml" />
     </modules>
   </component>
 </project>
