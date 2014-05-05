@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Bienvenue chez RTNP, le groupe qui tue &#187; revox</title>
+	<atom:link href="http://rtnp.org/tag/revox/feed/" rel="self" type="application/rss+xml" />
+	<link>http://rtnp.org</link>
+	<description>RTNP est un groupe de musique Libre. Nous essayons d&#039;utiliser le max d&#039;outils Libres et nous produisons en open-content. Voici nos travaux ...</description>
+	<lastBuildDate>Mon, 30 May 2011 14:33:32 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.9.1</generator>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+			<item>
+		<title>Réglages de l&#8217;azimut de la tête d&#8217;enregistrement d&#8217;un Revox B77 MKII</title>
+		<link>http://rtnp.org/2009/07/08/reglages-de-lazimut-de-la-tete-denregistrement-dun-revox-b77-mkii/</link>
+		<comments>http://rtnp.org/2009/07/08/reglages-de-lazimut-de-la-tete-denregistrement-dun-revox-b77-mkii/#comments</comments>
+		<pubDate>Wed, 08 Jul 2009 16:19:26 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[Bricolage]]></category>
+		<category><![CDATA[Ressources]]></category>
+		<category><![CDATA[b77]]></category>
+		<category><![CDATA[réglages]]></category>
+		<category><![CDATA[revox]]></category>
+
+		<guid isPermaLink="false">http://rtnp.org/wp-rtnp/?p=52</guid>
+		<description><![CDATA[Ce réglage concerne certains problèmes de symétrie entre les canaux Gauche et Droit du ReVox B77. Il faut impérativement que la tête d’enregistrement soit le plus perpendiculaire à la bande, afin qu’elle travaille de la même manière sur les deux canaux.
+Quand j’ai récupéré mon Revox B77, j’ai noté une différence de niveau entre l’entrée AUX [...]]]></description>
+			<content:encoded><![CDATA[<p>Ce réglage concerne certains problèmes de symétrie entre les canaux Gauche et Droit du ReVox B77. Il faut impérativement que la tête d’enregistrement soit le plus perpendiculaire à la bande, afin qu’elle travaille de la même manière sur les deux canaux.</p>
+<p>Quand j’ai récupéré mon Revox B77, j’ai noté une différence de niveau entre l’entrée AUX et le Tape Level, Au début j’avais un écart de 1 ou 2 dB, puis, en le déplaçant, l’écart s’est accentué jusqu’à atteindre -7dB sur le canal Droit.</p>
+<p>Nous allons voir ensemble comment régler ce problème.<span id="more-52"></span></p>
+<p>Afin de vérifier la différence de niveau :</p>
+<p>Il vous faut envoyer un signal de 10KHz -775mV dans les prises input AUX Left et Right du Revox.</p>
+<p>Ca correspond à un signal de 0dB suffisament stable pour que les Vu-Mètres ne bougent pas trop.</p>
+<ul>
+<li>Commuter le ReVox comme indiqué par la Figure 6.4.-11</li>
+</ul>
+<p style="text-align: center;">
+<ol>
+<li>Réglez la section Monitor sur Stéreo</li>
+<li>Réglez la section Record Left et Record Right sur AUX.</li>
+<li>Branchez un jack dans la prise Phone Left ou Right.</li>
+<li>L’interrupteur de la section Monitor sur Input</li>
+<li>Envoyez un signal 10 KHz &#8211; 77.5 mV et pas 775 mV dans les Input Aux. Contrôlez avec un Multimètre (Echelle 100mV) au niveau des Câbles RCA avant de les brancher aux prises AUX Input.
+<ol>
+<li>Les boutons de Volume « Rec Left » et « Rec Right » doivent être ajustés pour ramener les Vu-Mètres à 0 dB.</li>
+</ol>
+</li>
+<li>Réglez le volume de la section Monitor en contrôlant avec un Multimètre sur le jack qui sort de la prise Phone Left ou Right. Il faut impérativement retrouvez le même voltage de 775mV.</li>
+</ol>
+<p><a href="http://rtnp.org/wp-content/uploads/2010/02/b77_1.jpg"><img class="aligncenter size-full wp-image-53" title="b77_1" src="http://rtnp.org/wp-content/uploads/2010/02/b77_1.jpg" alt="" width="942" height="355" /></a></p>
+<ul>
+<li>Normalement les vu-mètres doivent indiquer 0 dB. C’est important de bien faire ça, parce que le voltage 775 mV en sortie est notre seule valeur sûre.</li>
+</ul>
+<p>Il faut bien être sûr qu’on envoit bien 77.5 mV aux AUX Input et amplifier le signal avec les boutons « Volume Input Level » jusqu’à revenir à 0 dB au vu-mètre. Il faut aussi s’assurer que sur les vu-mètres en sortie on a bien 775 mV soit 0dB.</p>
+<p>A partir de là, vous avez bien 0 dB qui sort, ca fait 20 fois que vous vérifiez les 77.5 mV en Imput et 20 fois que vous vérifiez les 775 mV en sortie.</p>
+<ul>
+<li>Placer une bande neuve sur le ReVox, lancer un enregistrement de votre courrant 10Khz 77.5mV, et commuter l’interrupteur Monitor de Input vers Tape.</li>
+</ul>
+<p>Normalement vous allez voir les aiguille des Vu-Mètre changer de valeur, et res en dessous des Zero dB.</p>
+<p>On va essayer de ramener tout ca en réglant l’azimut de la tête d’enregistrement.</p>
+<p>On le fait avec la vis « R » de la figure 6.4.-12 :</p>
+<p><a href="http://rtnp.org/wp-content/uploads/2010/02/b77_2.jpg"><img class="aligncenter size-full wp-image-54" title="b77_2" src="http://rtnp.org/wp-content/uploads/2010/02/b77_2.jpg" alt="" width="566" height="440" /></a></p>
+<p style="text-align: center;">
+<ul>
+<li>Commencez par mettre un bon coup par la gauche vous allez voir vos aiguille des vu-mètres encore baisser.</li>
+<li>Tournez vers la droite de 1/10ème de tour et attendez 1 seconde.</li>
+<li>Vous pouvez contrôler la valeur avec un vu-mètre à la sortie casque. Le max c’est 775 mV, C’est cette valeur qu’il faut retrouver.</li>
+<li>Vous continuez à tourner de 1/10ème de tour en attendant 1 seconde entre chaque nouveau coup d’essai. Approchez vous le plus possible de la valeur,</li>
+<li>Quand vous approchez du Max, le canal Gauche doit à peine baisser. Il faut vous arrêter ICI. Sinon, en continuant à tourner la vis, le signal sera de moins en moins fort.</li>
+<li>Maintenant, commutez la section Monitor sur Mono,</li>
+<li>Toujours en enregistrement, toujours avec un MultiMètre sur le OutPut Phone</li>
+</ul>
+<p>Là, le réglage va être très, mais alors trèèèès fin .</p>
+<ul>
+<li>Commencer par tourner 1/10eme vers la gauche.</li>
+<li>Puis trèèèès délicatement, à la limite du réalisable, tournez la vis de 1/20ème vers la droite et attendez 1 seconde.</li>
+<li>Recommencer jusqu’à ce que la valeur au vu-mètre diminue, il faut recommencer le réglage une fois que la valeur est redescendue.</li>
+<li>Notez la valeur Max avant que ca descende (775mV),</li>
+<li>Tournez de un 1/10ème vers la gauche.</li>
+<li>Tourner de 1/20ème vers la droite jusqu’à revenir à la valeur Max et arrêtez.</li>
+<li>Commutez l’interrupteur Tape / Input et contrôlez qu’au vu-mètre ça ne bouge plus.</li>
+<li>Commutez le Monitor vers Stéréo, Puis « Left », Puis « Right », Puis « Mono » et vérifiez au multimètre et au vu-mètre que vous avez bien le même niveau sur les 2 canaux puis vérifier en commutant l’interrupteur « Tape » « Input ».</li>
+</ul>
+<p>Avec cette technique j’ai rattrapé les -7dB sur le Canal Droit.</p>
+<p>Une fois le réglage fait, bloquez la vis avec du verni à ongles ou du verni de blocage. Faites attention à de rien toucher d’autre.</p>
+<p>Toutes ces informations sont disponibles dans le manuel de service du Revox. J’ai juste ajouté mon expérience, et ma technique pour se passer de GNBF.</p>
+<p>Si vous ne comprenez pas tout , reportez vous au manuel de service du B77.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://rtnp.org/2009/07/08/reglages-de-lazimut-de-la-tete-denregistrement-dun-revox-b77-mkii/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
