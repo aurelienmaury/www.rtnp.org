@@ -1,0 +1,17 @@
+body {
+  background-color: #FFF;
+  color: #000;
+  margin: 0;
+}
+#header,
+#orbit {
+  display: none;
+}
+.song {
+  margin: 2em;
+  font-size: 14px;
+}
+.song p.refrain {
+  margin-left: 50px;
+}
+/*# sourceMappingURL=rtnp-print.css.map */
