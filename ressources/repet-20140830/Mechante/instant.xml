@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instant>
+  <ExportRevision revision="1"/>
+  <ExportProfile>
+    <ExportTimespan format="Timecode">
+      <Range id="22450"/>
+    </ExportTimespan>
+    <ExportChannelConfiguration split="false" channels="2">
+      <Channel number="1">
+        <Port name="master/audio_out 1"/>
+      </Channel>
+      <Channel number="2">
+        <Port name="master/audio_out 2"/>
+      </Channel>
+    </ExportChannelConfiguration>
+    <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
+    <ExportFilename>
+      <Folder relative="true" path="/export"/>
+      <Field name="label" enabled="false"/>
+      <Field name="session" enabled="false"/>
+      <Field name="revision" enabled="false"/>
+      <Field name="time" enabled="false" value="T_None"/>
+      <Field name="date" enabled="false" value="D_None"/>
+    </ExportFilename>
+  </ExportProfile>
+  <Editor id="18" mixer-width="Wide" zoom-focus="ZoomFocusLeft" zoom="6530.000000" snap-to="SnapToBeat" snap-mode="SnapMagnetic" internal-snap-to="SnapToBeat" internal-snap-mode="SnapOff" pre-internal-snap-to="SnapToBeat" pre-internal-snap-mode="SnapMagnetic" edit-point="EditAtMouse" playhead="0" left-frame="0" y-origin="0.000000" show-measures="yes" maximised="no" follow-playhead="no" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" internal-edit="no" join-object-range="no" show-editor-mixer="yes" show-editor-list="no" editor-list-page="0" show-marker-lines="no" nudge-clock-value="240000">
+    <geometry x-size="1680" y-size="1026" x-pos="0" y-pos="0" edit-horizontal-pane-pos="931" notebook-shrunk="0" edit-vertical-pane-pos="765"/>
+    <Buttons>
+      <Press/>
+      <Release/>
+    </Buttons>
+    <Selection>
+      <RouteView id="22682"/>
+    </Selection>
+    <RegionList sort-type="ByEndInFile" sort-ascending="yes" show-all="no" show-automatic-regions="yes"/>
+  </Editor>
+  <Mixer narrow-strips="no" show-mixer="no" maximised="no">
+    <geometry x-size="1678" y-size="995" x-pos="0" y-pos="31" x-off="0" y-off="0" mixer-rhs-pane1-pos="333" mixer-list-hpane-pos="181"/>
+  </Mixer>
+  <Meterbridge show-meterbridge="no">
+    <geometry x-size="600" y-size="400" x-pos="1" y-pos="1"/>
+  </Meterbridge>
+</instant>

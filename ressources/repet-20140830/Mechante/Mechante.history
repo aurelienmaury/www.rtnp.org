@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UndoHistory>
+  <UndoTransaction tv-sec="1409410070" tv-usec="493700" name="insert file">
+    <StatefulDiffCommand obj-id="22427" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="22438"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1409410392" tv-usec="670772" name="capture">
+    <StatefulDiffCommand obj-id="22375" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="22468"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1409410463" tv-usec="103899" name="delete objets">
+    <StatefulDiffCommand obj-id="22375" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="22468"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1409411535" tv-usec="30249" name="capture">
+    <StatefulDiffCommand obj-id="22375" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="22508"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1409412707" tv-usec="853611" name="capture">
+    <StatefulDiffCommand obj-id="22553" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="22578"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1409412717" tv-usec="687843" name="delete objets">
+    <StatefulDiffCommand obj-id="22553" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="22578"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1409412861" tv-usec="56423" name="capture">
+    <StatefulDiffCommand obj-id="22553" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="22618"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1409412954" tv-usec="370324" name="delete objets">
+    <StatefulDiffCommand obj-id="22553" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="22618"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1409413141" tv-usec="410752" name="capture">
+    <StatefulDiffCommand obj-id="22553" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="22658"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1409413181" tv-usec="580213" name="normaliser">
+    <StatefulDiffCommand obj-id="22658" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <scale-amplitude from="1" to="5.16727495193"/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1409414109" tv-usec="227661" name="capture">
+    <StatefulDiffCommand obj-id="22710" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="22743"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1409414132" tv-usec="918845" name="delete objets">
+    <StatefulDiffCommand obj-id="22710" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="22743"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1409414355" tv-usec="774037" name="capture">
+    <StatefulDiffCommand obj-id="22710" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="22783"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+</UndoHistory>
