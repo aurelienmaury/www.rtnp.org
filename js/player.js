@@ -1,8 +1,8 @@
 $(function () {
 
     var mySoundList = [
-        {name: 'Mechante', url: 'ressources/Mechante-4.4.mp3'},
-        {name: 'Damné', url: 'ressources/Damne-20100203.mp3'}
+        {name: 'Jimmy Lajungle', url: 'ressources/Jimmy_Lajungle-Tribute_to_berurier.ogg'},
+        {name: 'Méchant', url: 'ressources/repet-20140830/Mechante/export/Mechant.wav'}
     ];
 
     var mySoundIndex = 0;

@@ -14,4 +14,7 @@ body {
 .song p.refrain {
   margin-left: 50px;
 }
+.song div.pagebreak {
+  page-break-after: always;
+}
 /*# sourceMappingURL=rtnp-print.css.map */
